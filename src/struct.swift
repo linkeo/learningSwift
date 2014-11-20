@@ -27,7 +27,7 @@ func add(a:Complex, b:Complex) -> Complex {
 
 // my code to be supported
 let a = Complex(re:3.0, im:4.0)
-let tupleA:(Double,Double) = a.toTuple();
+let tupleA:(Double,Double) = a.toTuple()
 println("a = \(tupleA)")
 
 let b = Complex(re:4.0, im:3.0)
